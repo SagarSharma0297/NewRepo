@@ -50,4 +50,8 @@
     padding: 16px;
     height:210px;
     
+    white-space:pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
 }

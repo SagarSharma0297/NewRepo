@@ -16,7 +16,7 @@ function TrendingSection () {
         <>
         <div className="container">
 
-        <div id="catagories">
+        <div id="catagories" style={{paddingTop:"120px"}}>
             <div style={{paddingBottom:"10px"}}>
                 <h1 className="heading">Trending Posts</h1>
             <img src="https://cdn4.iconfinder.com/data/icons/fedora-color/512/filter-512.png" alt="" width="20px"/>

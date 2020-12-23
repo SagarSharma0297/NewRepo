@@ -1,6 +1,7 @@
-import './App.css';
+import classes from  './App.module.css';
 import Cards from './Cards.js';
 import Topbar from './topbar.js';
+import Footer from './Footer';
 
 function App() {
 
@@ -74,11 +75,14 @@ function App() {
   return (
     <>
     <Topbar></Topbar>
-    {
+    <div className={classes.cardsGrid}>{
       dataArray.map((data,index)=>
         <Cards img={data} />
       )
-    }
+    }</div>
+
+    <Footer></Footer>
+    
     </>
   )
 }
