@@ -1,16 +1,14 @@
-import './Cards.css';
+import React from 'react';
+import MessageBox from './MessageBox';
+
 
 const Cards = (props) => {
     return (
         <>
 
-            <div className="card">
-                <img className="images" src={props.img.thumbnail} alt="Practical Machine Learning with Python and Keras" />
-                <div className="text-part">
-                    <h1 className="title">{props.img.title}</h1>
-                    <span className="edyoda">{props.img.author}</span> | <span className="date">{props.img.date}</span>
-                    <p className="description">{props.img.description}</p>
-                </div>
+            <div style={{width:"24%",height:'550px',backgroundColor:'#24212B',borderRadius:'4px'}}>
+                <div style={{width:"100%",height:'70px',color:'white',fontSize:'18px',display:'flex',"justifyContent":'center',alignItems:'center'}}>{props.heading}</div>
+                <MessageBox></MessageBox>
             </div>
 
         </>
