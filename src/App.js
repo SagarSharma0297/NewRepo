@@ -4,8 +4,8 @@ function App() {
 
   return (
     <>
-      <div style={{ width: "100vw", height: "100vh", backgroundColor: "#2C2932" }}>
-        <div style={{display:'flex',justifyContent:'space-between',width:'100%',padding:"30px",height:'15vh'}}>
+      <div style={{ width: "100vw", height: "100vh", backgroundColor: "#2C2932",boxSizing:'border-box' }}>
+        <div style={{display:'flex',justifyContent:'space-between',width:'100%',padding:"30px",height:'15vh',boxSizing:'border-box'}}>
           <div>
             <div style={{fontSize:"18px",border:"1px solid white", borderRadius:"6px",padding:"4px 18px",color:"#FFFFFF",cursor:"pointer"}}> Trash </div>
           </div>

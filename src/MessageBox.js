@@ -3,7 +3,7 @@ import React from 'react';
 const MessageBox = () => {
     return (
         <>
-            <div style={{color: 'white', backgroundColor: '#464454', width: '95%', margin: 'auto', padding: '10px', borderRadius: '4px' }}>
+            <div style={{color: 'white', backgroundColor: '#464454', margin: '5px auto ', padding: '10px', borderRadius: '4px' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between'}}>
                     <div style={{display:'flex',alignItems:'center'}}>
                         <div style={{ borderRadius: '50%', height: '40px', width: '40px' }}>
