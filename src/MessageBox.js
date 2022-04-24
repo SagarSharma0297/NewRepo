@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MessageBox = () => {
+const MessageBox = (props) => {
     return (
         <>
             <div style={{color: 'white', backgroundColor: '#464454', margin: '5px auto ', padding: '10px', borderRadius: '4px' }}>
@@ -10,9 +10,9 @@ const MessageBox = () => {
                             <img alt='profile-pic' style={{ borderRadius: '50%' }} src='https://cdn4.vectorstock.com/i/1000x1000/06/18/male-avatar-profile-picture-vector-10210618.jpg' width={'40px'} height={'40px'}></img>
                         </div>
                         <div style={{marginLeft:'10px'}}>
-                            <div style={{fontSize:'12px',fontWeight:'bold'}}>Sagar Sharma <div style={{width:'10px',height:'10px',backgroundColor:'lightgreen',borderRadius:'50%',display:'inline-block'}}></div></div>
+                            <div style={{fontSize:'12px',fontWeight:'bold'}}>{props.name} <div style={{width:'10px',height:'10px',backgroundColor:'lightgreen',borderRadius:'50%',display:'inline-block'}}></div></div>
                             <div style={{fontSize:'12px',textOverflow:'hidden'}}>
-                                Thankyou So much
+                                {props.message}
                             </div>
                         </div>
                     </div>
